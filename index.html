@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css  -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- logo -->
+    <link rel="icon" href="favicon.ico">
+    <title>Music Player✨</title>
+</head>
+<body>
+    <div class="main-div">
+         <div class="music-container">
+              <h1 id="title">Sajde Kiye Hai</h1>
+              <h3 id="artist">Katha Meetha</h3>
+              <div class="img-container">
+                  <img src="./images/img1.jpg" alt="">
+              </div> 
+              <!-- progress bar -->
+              <div class="progress-bar" id="progressContainer">
+                   <div class="progress-meter">
+                        <div class="time current-time">0:00</div>
+                        <div class="time duration">4:06</div>
+                   </div>
+                   <div class="progress-div" id="progressDiv">
+                       <div class="progress" id="Progress"></div>
+                   </div>
+              </div>
+              <div class="music-controls">
+                <i class="fas fa-angle-double-left" id="fivesecbackward" title="5s"></i>
+                <i class="fas fa-backward" id="back" title="Backward"></i>
+                <i class="fas fa-play-circle" id="Play" title="Play/Pause"></i>
+                <i class="fas fa-forward" id="forward" title="Forward"></i>
+                <i class="fas fa-angle-double-right" id="fivesecforward" title="5s"></i>
+              </div>
+         </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
